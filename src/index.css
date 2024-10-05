@@ -1,0 +1,84 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+:root {
+  --color-bg-primary: #0f172a;
+  --color-bg-secondary: #1e293b;
+  --color-text-primary: #e2e8f0;
+  --color-text-secondary: #94a3b8;
+  --color-accent-primary: #3b82f6;
+  --color-accent-secondary: #60a5fa;
+}
+
+body {
+  background-color: var(--color-bg-primary);
+  color: var(--color-text-primary);
+}
+
+.react-select-container .react-select__control {
+  @apply bg-gray-800 border-gray-700 text-gray-200;
+}
+
+.react-select-container .react-select__menu {
+  @apply bg-gray-800 border-gray-700;
+}
+
+.react-select-container .react-select__option {
+  @apply text-gray-200 hover:bg-gray-700;
+}
+
+.react-select-container .react-select__single-value {
+  @apply text-gray-200;
+}
+
+.react-select-container .react-select__multi-value {
+  @apply bg-blue-700 text-white;
+}
+
+.react-select-container .react-select__multi-value__label {
+  @apply text-white;
+}
+
+.react-select-container .react-select__multi-value__remove {
+  @apply text-white hover:bg-blue-800;
+}
+
+.react-select-container .react-select__input-container {
+  @apply text-gray-200;
+}
+
+/* Custom scrollbar for webkit browsers */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.5);
+}
+
+/* Glowing effect for inputs and buttons */
+.glow-effect {
+  box-shadow: 0 0 5px var(--color-accent-primary);
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.glow-effect:focus, .glow-effect:hover {
+  box-shadow: 0 0 15px var(--color-accent-primary);
+}
+
+/* Neon text effect */
+.neon-text {
+  text-shadow: 0 0 5px var(--color-accent-primary), 0 0 10px var(--color-accent-primary), 0 0 15px var(--color-accent-primary);
+}
