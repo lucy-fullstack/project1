@@ -5,6 +5,7 @@ This project is an intuitive tool designed for front-end, backend, and fullstack
 
 The tool guides users step-by-step through a series of questions, helping them clarify project details, estimate the time required, and calculate the overall cost based on either a predefined hourly rate or a data-driven suggested rate based on location, experience, and other relevant factors. 🤓
 
+
 **Features**
 
 
@@ -17,6 +18,7 @@ The tool guides users step-by-step through a series of questions, helping them c
 If the user already knows their rate, they can input it directly.
 
 If they don't, the tool suggests an hourly rate based on location, years of experience, tech stack, and market data (updated to October 4, 2024).
+
 
 **Project Cost Calculation:** The tool calculates the total cost based on time estimates and the hourly rate.
 
@@ -43,3 +45,6 @@ If they don't, the tool suggests an hourly rate based on location, years of expe
 
 Contributions are welcome!
 
+<img width="328" alt="Captura de pantalla 2024-10-04 a la(s) 11 38 35 p  m" src="https://github.com/user-attachments/assets/213aeb2e-cf32-454e-9811-564612e59ec7">
+
+<img width="788" alt="Captura de pantalla 2024-10-04 a la(s) 11 37 45 p  m" src="https://github.com/user-attachments/assets/59f6d8e9-b546-4e7b-b2b7-917a09557fba">
